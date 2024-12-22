@@ -7,7 +7,21 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from src.utils import month_to_season
+
+month_to_season = {
+    1: "winter",
+    2: "winter",
+    3: "spring",
+    4: "spring",
+    5: "spring",
+    6: "summer",
+    7: "summer",
+    8: "summer",
+    9: "autumn",
+    10: "autumn",
+    11: "autumn",
+    12: "winter",
+}
 
 
 def main():
